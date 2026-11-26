@@ -11,6 +11,7 @@ import java.util.logging.Level;
 // page_url = https://www.jetbrains.com/
 public class MainPage {
 
+
     @FindBy(xpath = "//*[@data-test-marker='Products']") //'Developer Tools']")
     public WebElement seeDeveloperToolsButton;
 
