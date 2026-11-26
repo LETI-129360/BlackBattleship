@@ -210,3 +210,17 @@ adicionais necessários. Os resultados devem ser verificados na interface.
 | US19 | Abrir «Customize»; selecionar «Best of 5». | Opção selecionada e resumo «FORMAT» atualizado. | Direto; não submeter. |
 | US20 | Abrir «Customize»; escolher dois minutos por jogador. | Opção selecionada e resumo «TIME / PLAYER» atualizado. | Direto; não submeter. |
 | US21 | Sessão nova; abrir pedido de nickname e preencher `Lab5Jogador`. | «Continue» desativado antes e disponível depois do preenchimento. | Direto; não exige concluir a entrada na sala. |
+
+
+
+## Testes da suite TestSuite_129360
+
+Os quatro cenários de `TestSuite_129360.side` estão convertidos para Selenium com
+JUnit 5 e Page Object Model em `src/test/java/iscteiul/ista/blackbattleship/`:
+
+| Cenário no SIDE | Page Object (seletores e operações) | Page Test (JUnit e assertions) |
+| --- | --- | --- |
+| `UserStoryTest1` | `UserStory1.java` | `UserStory1Test.java` |
+| `UserStoryTest9` | `UserStory9.java` | `UserStory9Test.java` |
+| `UserStoryTest10` | `UserStory10.java` | `UserStory10Test.java` |
+| `UserStoryTest17` | `UserStory17.java` | `UserStory17Test.java` |

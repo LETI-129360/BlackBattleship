@@ -1,0 +1,663 @@
+{
+  "id": "70f796a1-08b2-4483-b3ba-7c48e8708e60",
+  "version": "3.0",
+  "name": "TestSuite_129360",
+  "url": "http://www.google.com",
+  "urls": [
+    "http://www.google.com"
+  ],
+  "plugins": [],
+  "suites": [
+    {
+      "id": "fca4bef2-4004-4740-81ae-cae979338bd2",
+      "name": "TestSuite_129360",
+      "parallel": false,
+      "persistSession": false,
+      "tests": [
+        "08459b5e-e714-4e56-815a-badca823111d",
+        "cc671a80-9ae0-47f9-b607-45082c543889",
+        "fb37aa05-171f-4f3d-8492-a2550c905144",
+        "4fd6938b-206d-407d-8ac2-be65c8cbf021"
+      ],
+      "timeout": 30000
+    }
+  ],
+  "tests": [
+    {
+      "id": "4fd6938b-206d-407d-8ac2-be65c8cbf021",
+      "name": "UserStoryTest1",
+      "commands": [
+        {
+          "command": "storeWindowHandle",
+          "id": "0000-0000-0000-0000",
+          "target": "root",
+          "value": ""
+        },
+        {
+          "id": "4853e552-6282-4b1d-8105-d17b5d3cbcf0",
+          "command": "open",
+          "target": "https://papergames.io/en",
+          "value": "",
+          "opensWindow": false,
+          "windowHandleName": "root",
+          "Window Timeout": "10000"
+        },
+        {
+          "command": "click",
+          "target": "css=div:nth-of-type(2) > div > button:nth-of-type(1) > p:nth-child(2)",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "ea43941b-5202-4d35-a6ba-7595170cf430",
+          "targets": [
+            [
+              "css=div:nth-of-type(2) > div > button:nth-of-type(1) > p:nth-child(2)",
+              "css:finder"
+            ],
+            [
+              "xpath=//p[contains(.,'Consent')]",
+              "xpath:innerText"
+            ]
+          ],
+          "comment": "Aceitar cookies"
+        },
+        {
+          "command": "click",
+          "target": "css=div:nth-of-type(1) > a .img-fluid",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "a7485584-50c6-42e2-8437-0c1e79b09f8e",
+          "targets": [
+            [
+              "css=div:nth-of-type(1) > a .img-fluid",
+              "css:finder"
+            ],
+            [
+              "xpath=(//img[@alt='Battleship'])[1]",
+              "xpath:img"
+            ]
+          ],
+          "comment": "Escolher o jogo Battleship"
+        },
+        {
+          "command": "click",
+          "target": "css=app-juicy-button:nth-of-type(2) .front > span",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "10dcaf69-8847-4bb1-ac47-2197670785d2",
+          "targets": [
+            [
+              "css=app-juicy-button:nth-of-type(2) .front > span",
+              "css:finder"
+            ]
+          ],
+          "comment": "Escolher Play vs robots"
+        },
+        {
+          "command": "type",
+          "target": "css=.position-relative > .text-center",
+          "value": "Lab5Jogador",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "17cd22a4-3ae7-432d-916d-20dad44453a9",
+          "targets": [
+            [
+              "css=.position-relative > .text-center",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@type='text'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-guest-registration-dialog/form/app-dialog-layout/div/section/div/div/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ],
+          "comment": "Escrever nickname"
+        },
+        {
+          "command": "click",
+          "target": "css=.align-items-center > .btn",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "e989dd4f-1fd9-4e3e-9b3f-949c55234286",
+          "targets": [
+            [
+              "css=.align-items-center > .btn",
+              "css:finder"
+            ],
+            [
+              "xpath=(//button[@type='submit' and text()='Continue'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-guest-registration-dialog/form/app-dialog-layout/div/footer/button)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//button[contains(.,'Continue')]",
+              "xpath:innerText"
+            ]
+          ],
+          "comment": "Clicar continue"
+        },
+        {
+          "command": "mouseOver",
+          "target": "css=.align-items-center > .btn",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "ec4d4b74-7154-4656-9ce3-58c0da584eaa",
+          "targets": [
+            [
+              "css=.align-items-center > .btn",
+              "css:finder"
+            ],
+            [
+              "xpath=(//button[@type='submit' and text()='Continue'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-guest-registration-dialog/form/app-dialog-layout/div/footer/button)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//button[contains(.,'Continue')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "mouseOver",
+          "target": "css=.position-relative > .front",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "783ec916-8bdc-4240-b70e-141a3bcc9be3",
+          "targets": [
+            [
+              "css=.position-relative > .front",
+              "css:finder"
+            ]
+          ]
+        },
+        {
+          "command": "waitForElementVisible",
+          "target": "css=.text-end > .text-truncate",
+          "value": "15000",
+          "id": "12d740fd-78de-4e08-bcb8-fd9adf50fc1e",
+          "opensWindow": false,
+          "fallbackTargets": [
+            [
+              "css=.text-end > .text-truncate",
+              "css:finder"
+            ]
+          ]
+        },
+        {
+          "command": "assertText",
+          "target": "css=.text-end > .text-truncate",
+          "value": "Lab5Jogador",
+          "id": "cd0991dc-78b3-4bbc-8f2d-65217e330023",
+          "fallbackTargets": [
+            [
+              "css=.text-end > .text-truncate",
+              "css:finder"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "08459b5e-e714-4e56-815a-badca823111d",
+      "name": "UserStoryTest9",
+      "commands": [
+        {
+          "id": "614b92f8-94d8-4d3b-97b3-7f255410147e",
+          "command": "open",
+          "target": "https://papergames.io/en/t/create-tournament?game=Battleships",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "css=div:nth-of-type(2) > div > button:nth-of-type(1) > p:nth-child(2)",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "281b8e4e-4a7b-484e-ac80-23783895adbd",
+          "targets": [
+            [
+              "css=div:nth-of-type(2) > div > button:nth-of-type(1) > p:nth-child(2)",
+              "css:finder"
+            ],
+            [
+              "xpath=//p[contains(.,'Consent')]",
+              "xpath:innerText"
+            ]
+          ],
+          "comment": "Aceitar cookies"
+        },
+        {
+          "command": "mouseOver",
+          "target": "css=button:nth-of-type(2)",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "12a8e6e6-b0d1-4180-bd28-49d54a569aa6",
+          "targets": [
+            [
+              "css=button:nth-of-type(2)",
+              "css:finder"
+            ],
+            [
+              "xpath=(//button[@type='button' and text()='Office Battleship Open'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//button[contains(.,'Office Battleship Open')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=tf-name",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "44766ea2-0ec9-45c1-b5d2-9a37f2395030",
+          "targets": [
+            [
+              "id=tf-name",
+              "id"
+            ],
+            [
+              "css=section > input",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='tf-name'])[1]",
+              "xpath:attributes"
+            ]
+          ],
+          "comment": "Carregar na caixa de texto do nome"
+        },
+        {
+          "command": "type",
+          "target": "id=tf-name",
+          "value": "NomeDoTorneio",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "b223d52c-24e0-4a26-b25d-181ee0fdb0e4",
+          "targets": [
+            [
+              "id=tf-name",
+              "id"
+            ],
+            [
+              "css=section > input",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='tf-name'])[1]",
+              "xpath:attributes"
+            ]
+          ],
+          "comment": "Escrever o nome do torneio"
+        },
+        {
+          "command": "waitForElementVisible",
+          "target": "css=app-tournament-banner > div > div:nth-of-type(1) > div > div:nth-of-type(2)",
+          "value": "150000",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "19e2b14d-1067-4069-bb30-f5693a8a15ea",
+          "targets": [
+            [
+              "css=section:nth-of-type(2)",
+              "css:finder"
+            ]
+          ],
+          "fallbackTargets": [
+            [
+              "css=app-tournament-banner > div > div:nth-of-type(1) > div > div:nth-of-type(2)",
+              "css:finder"
+            ]
+          ]
+        },
+        {
+          "command": "assertText",
+          "target": "css=app-tournament-banner > div > div:nth-of-type(1) > div > div:nth-of-type(2)",
+          "value": "NomeDoTorneio",
+          "id": "bd52cafe-de29-4c22-b659-20ade906d585",
+          "fallbackTargets": [
+            [
+              "css=app-tournament-banner > div > div:nth-of-type(1) > div > div:nth-of-type(2)",
+              "css:finder"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fb37aa05-171f-4f3d-8492-a2550c905144",
+      "name": "UserStoryTest10",
+      "commands": [
+        {
+          "id": "5fff7423-f09d-4e06-9238-36638f89421f",
+          "command": "open",
+          "target": "https://papergames.io/en/battleship",
+          "value": ""
+        },
+        {
+          "command": "mouseOver",
+          "target": "css=app-juicy-button:nth-of-type(2) .front",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "c30e9e5f-59f5-49b2-9ddf-3355be92bc97",
+          "targets": [
+            [
+              "css=app-juicy-button:nth-of-type(2) .front",
+              "css:finder"
+            ],
+            [
+              "xpath=//span[contains(.,'Play vs robot')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=.position-relative > .front",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "64dd8609-2164-408f-99f9-65b017f0d6f7",
+          "targets": [
+            [
+              "css=.position-relative > .front",
+              "css:finder"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=div:nth-of-type(2) > div > button:nth-of-type(1) > p:nth-child(2)",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "ffcc5496-64c0-43cb-91e6-1e536bc81f86",
+          "targets": [
+            [
+              "css=div:nth-of-type(2) > div > button:nth-of-type(1) > p:nth-child(2)",
+              "css:finder"
+            ],
+            [
+              "xpath=//p[contains(.,'Consent')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "runScript",
+          "target": "window.scrollTo(0,0)",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "871e7402-e2a8-44cf-bef3-7dd4895ac318",
+          "targets": [
+            [
+              "window.scrollTo(0,0)",
+              ""
+            ]
+          ]
+        },
+        {
+          "command": "waitForElementVisible",
+          "target": "css=.choice > span:nth-child(3)",
+          "value": "15000",
+          "id": "1f36763d-7245-4956-a75e-623fa2a53795",
+          "fallbackTargets": [
+            [
+              "css=.choice > span:nth-child(3)",
+              "css:finder"
+            ]
+          ]
+        },
+        {
+          "command": "assertText",
+          "target": "css=.choice > span:nth-child(3)",
+          "value": "Battleship",
+          "id": "e655fb98-09bc-4bf2-8ec5-5ff2d64813ea",
+          "fallbackTargets": [
+            [
+              "css=.choice > span:nth-child(3)",
+              "css:finder"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cc671a80-9ae0-47f9-b607-45082c543889",
+      "name": "UserStoryTest17",
+      "commands": [
+        {
+          "id": "d50d33d1-c2f8-45f8-8bea-00db39951dd1",
+          "command": "open",
+          "target": "https://papergames.io/en/battleship",
+          "value": ""
+        },
+        {
+          "command": "mouseOver",
+          "target": "css=div:nth-of-type(2) > div:nth-child(2) > button:nth-child(1)",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "e98aad92-9ad2-440a-bc00-51f76f0f1201",
+          "targets": [
+            [
+              "css=div:nth-of-type(2) > div:nth-child(2) > button:nth-child(1)",
+              "css:finder"
+            ],
+            [
+              "xpath=//button[contains(.,'Consent')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=div:nth-of-type(2) > div > button:nth-of-type(1) > p:nth-child(2)",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "48fdb15b-a5e6-4c6d-9664-d0358fae8e76",
+          "targets": [
+            [
+              "css=div:nth-of-type(2) > div > button:nth-of-type(1) > p:nth-child(2)",
+              "css:finder"
+            ],
+            [
+              "xpath=//p[contains(.,'Consent')]",
+              "xpath:innerText"
+            ]
+          ],
+          "comment": "Aceitar cookies"
+        },
+        {
+          "command": "runScript",
+          "target": "window.scrollTo(0,0)",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "ff01a870-9b5e-4a65-8f1d-4cc86eb1cc37",
+          "targets": [
+            [
+              "window.scrollTo(0,0)",
+              ""
+            ]
+          ]
+        },
+        {
+          "command": "runScript",
+          "target": "window.scrollTo(0,0)",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "037cda3e-b821-46f6-a032-34d631f56c2d",
+          "targets": [
+            [
+              "window.scrollTo(0,0)",
+              ""
+            ]
+          ]
+        },
+        {
+          "command": "mouseOver",
+          "target": "linkText=Learn more",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "38a347b9-1fcd-473d-a157-a526dd8a38b9",
+          "targets": [
+            [
+              "linkText=Learn more",
+              "linkText"
+            ],
+            [
+              "css=.area-ranka a",
+              "css:finder"
+            ],
+            [
+              "xpath=(//a[contains(text(),'Learn more')])[1]",
+              "xpath:link"
+            ],
+            [
+              "xpath=(//a[contains(@href, '/en/blog/ranka')])[2]",
+              "xpath:href"
+            ],
+            [
+              "xpath=//a[contains(.,'Learn more')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "linkText=Learn more",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "f5bf768a-31c1-4a28-92e3-18eb07457550",
+          "targets": [
+            [
+              "linkText=Learn more",
+              "linkText"
+            ],
+            [
+              "css=.area-ranka a",
+              "css:finder"
+            ],
+            [
+              "xpath=(//a[contains(text(),'Learn more')])[1]",
+              "xpath:link"
+            ],
+            [
+              "xpath=(//a[contains(@href, '/en/blog/ranka')])[2]",
+              "xpath:href"
+            ],
+            [
+              "xpath=//a[contains(.,'Learn more')]",
+              "xpath:innerText"
+            ]
+          ],
+          "comment": "Clicar Learn more"
+        },
+        {
+          "command": "waitForElementVisible",
+          "target": "css=[data-fontsize=\"48\"]",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "d3ca08d1-e818-4bfc-a4a1-5adf52f2d444",
+          "targets": [
+            [
+              "window.scrollTo(0,0)",
+              ""
+            ]
+          ],
+          "fallbackTargets": [
+            [
+              "css=[data-fontsize=\"48\"]",
+              "css:data-attr"
+            ],
+            [
+              "css=h1",
+              "css:finder"
+            ],
+            [
+              "xpath=//h1[contains(.,'RANKA')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "assertText",
+          "target": "css=[data-fontsize=\"48\"]",
+          "value": "RANKA",
+          "id": "54127b1a-dfa0-43a1-8fc7-c8c51b40e9af",
+          "fallbackTargets": [
+            [
+              "css=[data-fontsize=\"48\"]",
+              "css:data-attr"
+            ],
+            [
+              "css=h1",
+              "css:finder"
+            ],
+            [
+              "xpath=//h1[contains(.,'RANKA')]",
+              "xpath:innerText"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "snapshot": {
+    "dependencies": {},
+    "tests": [],
+    "jest": {
+      "extraGlobals": []
+    }
+  }
+}
